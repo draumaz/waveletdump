@@ -1,0 +1,6 @@
+id=waveletdump
+name=Wavelet DUMP
+version=1
+versionCode=1
+author=draumaz
+description=Enable Wavelet DUMP permission on boot.

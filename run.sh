@@ -3,11 +3,11 @@
 MODAUTH_FORCE=1
 
 if ! test -e modauth; then
-  git clone https://github.com/draumaz/modauth
+  git clone https://github.com/draumaz/andrautomation
 fi
 
-cp -vf service.sh modauth/service.sh
-cd modauth
+cp -vf service.sh andrautomation/service.sh
+cd andrautomation
 
 name="waveletdump"
 version="1"
@@ -19,5 +19,6 @@ echo
 source modauth.sh
 
 cd ..
-mv modauth/"${name}-${versionCode}.zip" .
-rm -rf modauth
+mv andrautomation/"${name}-${versionCode}.zip" .
+
+rm -rf andrautomation
